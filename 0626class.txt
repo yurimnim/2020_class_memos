@@ -1,0 +1,44 @@
+0616   ArrayList
+
+어떠한 자료형도 담을 수 있음. 
+
+ArrayList<String>list = new ArrayList()();
+		여긴 안써도됨
+
+list.add("something");
+list.add("item");
+
+String name = list.get(0); // list 의 0번째 인덱스의 것 가져옴
+list.remove(1); 지우기 
+
+============================================================================================
+<<메소드(함수)>>
+어떤 문제해결을 하기위한 혹은 어떤 기능을 위한 
+서로 관련있는 명령어들의 집합 
+
+<<메소드 만드는 방법>>
+public static 리턴타입 메소드명( [매개변수들]  ){
+	메소드가 해야할 명령어들; 
+	
+	 return [값]; - 올수도 있고 오지 않을 수도 있음. 
+}
+
+쪽지시험 1번 
+public static int getMax(int[] arr){
+	int max = arr[0];
+	for (int i = 1; i < arr.length; i++){
+		if (arr[i] >max) {
+		  max = arr[i];
+		}
+	}
+	return max;
+}
+
+쪽지시험 2번
+public static int getMax2(int a, int b){
+	int max = a;
+	if (b > max) {
+	 max = b;
+	}
+   return max;
+}

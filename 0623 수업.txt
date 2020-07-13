@@ -1,0 +1,31 @@
+0623 수업
+쪽지시험리뷰
+
+Class Test {
+	public static void main(String[] args){
+	
+	int sum = 0; //  더하기를 할거면 처음에 값을 정해줘야함)
+	for( int i = 1; i <= 10 ; i ++){
+	sum = sum + i;
+   }
+   System.out.println(sum);
+ }	
+} 
+
+Class Test {
+	public static void main(String[] args){
+		
+		int i = 1;
+		int sum = 0;
+		whlie(i <= 10) {
+		 sum += i; 
+		 i ++; // 반드시 i 증감식을 적어줘야함 아니면 1에서 계속 돌음 
+		}
+		System.out.println(sum);
+ }	
+} 
+	
+
+<<배열>>
+배열 : 자료형이 같은 기억장소의 모임 
+
